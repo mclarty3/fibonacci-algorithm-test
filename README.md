@@ -9,7 +9,7 @@ I implemented the following algorithms:
 * Recursive algorithm: Just your run of the mill recursive algorithm to find F(n). If n > 2, return F(n - 2) + F(n - 1), otherwise return 1
 * Simple while loop: Sums up the numbers in a loop to find F(n); no recursion needed!
 * Closed form equation: The basic closed form equation to find F(n), derived using the golden ratio (Binet's formula)
-* Matrix exponentiation: I tried a few ways of doing this and settled on shamelessly stealing the code from StackOverflow
+* Matrix exponentiation: I tried a few ways of doing this and settled on shamelessly stealing the code from [StackOverflow](https://stackoverflow.com/questions/18172257/efficient-calculation-of-fibonacci-series/23462371#23462371)
 
 # Results
 So it turns out my professor was right and recursion is a _horrendously_ inefficient way of calculating numbers in the Fibonacci sequence. Surprise surprise.
