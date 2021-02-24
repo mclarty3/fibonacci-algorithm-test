@@ -3,6 +3,7 @@ from time import perf_counter_ns
 import matplotlib.pyplot as plt
 
 def recursiveFib(n):
+    # I decided to have n start at 0 for consistency with the other algorithms. F(1) = 1, F(2) = 1, F(3) = 2, etc.
     if n > 2:
         return recursiveFib(n - 2) + recursiveFib(n - 1)
     else:
